@@ -30,8 +30,8 @@ br.addheaders = [ ( 'User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.
 # authenticate 
 br.open('http://10.0.0.1/login.cgi') 
 br.select_form(nr=0)
-br[ "username" ] = 'tronicanet'
-br[ "password" ] = '33404159'
+br[ "username" ] = 'usuario'
+br[ "password" ] = 'contraseña'
 res = br.submit() 
  
 print "Success!\n"
